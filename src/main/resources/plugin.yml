@@ -1,0 +1,72 @@
+name: EssentialZ
+version: '${version}'
+main: com.spectrasonic.essentialZ.Main
+api-version: '1.18'
+authors: [ Spectrasonic ]
+commands:
+  essentialz:
+    permission: essentialz.command.essentialz
+  repair:
+    permission: essentialz.command.repair
+  gmc:
+    permission: essentialz.command.gamemode.creative
+  gms:
+    permission: essentialz.command.gamemode.survival
+  gma:
+    permission: essentialz.command.gamemode.adventure
+  gmsp:
+    permission: essentialz.command.gamemode.spectator
+  gm0:
+    permission: essentialz.command.gamemode.survival
+  gm1:
+    permission: essentialz.command.gamemode.creative
+  gm2:
+    permission: essentialz.command.gamemode.adventure
+  gm3:
+    permission: essentialz.command.gamemode.spectator
+  fly:
+    permission: essentialz.command.fly
+  heal:
+    permission: essentialz.command.heal
+  feed:
+    permission: essentialz.command.feed
+  enderchest:
+    permission: essentialz.command.enderchest
+  workbench:
+    permission: essentialz.command.workbench
+  warp:
+    permission: essentialz.command.warps.warp
+  warps:
+    permission: essentialz.command.warps.warps
+  setwarp:
+    permission: essentialz.command.warps.setwarp
+  delwarp:
+    permission: essentialz.command.warps.delwarp
+
+permissions:
+  essentialz.command.repair:
+    default: op
+  essentialz.command.essentialz:
+    default: true
+  essentialz.command.gamemode:
+    children:
+      essentialz.command.gamemode.creative: op
+      essentialz.command.gamemode.survival: op
+      essentialz.command.gamemode.adventure: op
+      essentialz.command.gamemode.spectator: op
+  essentialz.command.fly:
+    default: op
+  essentialz.command.heal:
+    default: op
+  essentialz.command.feed:
+    default: op
+  essentialz.command.enderchest:
+    default: op
+  essentialz.command.workbench:
+    default: op
+  essentialz.command.warps:
+    children:
+      essentialz.command.warps.warp: op
+      essentialz.command.warps.warps: op
+      essentialz.command.warps.setwarp: op
+      essentialz.command.warps.delwarp: op
