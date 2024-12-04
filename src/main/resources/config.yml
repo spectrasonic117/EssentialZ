@@ -1,0 +1,10 @@
+# Default configuration for WarpSimple plugin
+# Add your default warp settings here
+# Plugin created by Spectrasonic
+example-warp:
+  world: world
+  x: 0.0
+  y: 64.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0

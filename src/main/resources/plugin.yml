@@ -50,10 +50,14 @@ permissions:
     default: true
   essentialz.command.gamemode:
     children:
-      essentialz.command.gamemode.creative: op
-      essentialz.command.gamemode.survival: op
-      essentialz.command.gamemode.adventure: op
-      essentialz.command.gamemode.spectator: op
+      essentialz.command.gamemode.creative:
+        default: op
+      essentialz.command.gamemode.survival:
+        default: op
+      essentialz.command.gamemode.adventure:
+        default: op
+      essentialz.command.gamemode.spectator:
+        default: op
   essentialz.command.fly:
     default: op
   essentialz.command.heal:
@@ -66,7 +70,11 @@ permissions:
     default: op
   essentialz.command.warps:
     children:
-      essentialz.command.warps.warp: op
-      essentialz.command.warps.warps: op
-      essentialz.command.warps.setwarp: op
-      essentialz.command.warps.delwarp: op
+      essentialz.command.warps.warp:
+        default: op
+      essentialz.command.warps.warps:
+        default: op
+      essentialz.command.warps.setwarp:
+        default: op
+      essentialz.command.warps.delwarp:
+        default: op

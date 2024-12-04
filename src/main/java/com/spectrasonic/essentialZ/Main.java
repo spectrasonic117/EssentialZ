@@ -38,6 +38,7 @@ public final class Main extends JavaPlugin {
     public void onEnable() {
         registerCommands();
         registerListeners();
+
         saveDefaultConfig();
         warpManager = new WarpManager(this);
 

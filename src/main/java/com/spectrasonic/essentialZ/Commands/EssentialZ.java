@@ -42,7 +42,7 @@ public class EssentialZ implements CommandExecutor {
                 "&7=== Available Commands &6===",
                 "",
                 "&a/essentialz",
-                "&a/reapir",
+                "&a/repair",
                 "&a/gmc",
                 "&a/gms",
                 "&a/gma",
